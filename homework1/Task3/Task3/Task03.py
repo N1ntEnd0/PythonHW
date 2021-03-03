@@ -18,5 +18,3 @@ def find_maximum_and_minimum(file_name: str) -> Tuple[int, int]:
             lis.append(int(line.rstrip()))
 
     return min(lis), max(lis)
-
-

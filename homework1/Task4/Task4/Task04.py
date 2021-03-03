@@ -20,9 +20,8 @@ def check_sum_of_four(a: List[int], b: List[int], c: List[int], d: List[int]) ->
                 dic[i + j] = 1
     for k in c:
         for l in d:
-            if -k -l in dic:
+            if -k - l in dic:
                 # dic[-k -l] += 1
                 res += dic.get(-k - l)
     print(dic)
     return res
-

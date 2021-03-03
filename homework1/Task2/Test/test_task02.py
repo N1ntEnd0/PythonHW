@@ -1,5 +1,4 @@
 import pytest
-
 from Task2.Task2.Task02 import check_fibonacci
 
 
